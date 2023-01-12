@@ -2,7 +2,7 @@
   <div>
     <el-button
         type="primary"
-        icon="el-icon-user-solid"
+        icon="el-icon-s-goods"
         @click.native.prevent="handleLogout"
     >
       退出
@@ -12,14 +12,15 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "MallHome",
   methods: {
     handleLogout() {
-      this.$router.push('/')
+      this.$router.push('/login')
     }
   }
 }
 </script>
 
 <style scoped>
+
 </style>
